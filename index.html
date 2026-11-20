@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сессия: Выживание</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="ui">
+        <div>❤️ Здоровье: <span id="hp">100</span></div>
+        <div>☕ Кофе (щит): <span id="coffee">0</span>%</div>
+        <div>⭐ Очки (зачеты): <span id="score">0</span></div>
+    </div>
+    <canvas id="gameCanvas" width="800" height="600"></canvas>
+    <div id="gameOver" class="hidden">
+        <h1>Отчислен!</h1>
+        <p>Сдано зачетов: <span id="finalScore">0</span></p>
+        <button id="restartBtn">На пересдачу</button>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
